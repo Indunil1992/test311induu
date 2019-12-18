@@ -1,0 +1,144 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "24d224cc-f7e6-4c3c-a3f2-0a45ce1469a9": {
+        "id": "24d224cc-f7e6-4c3c-a3f2-0a45ce1469a9",
+        "parent": null,
+        "name": "test311induu",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "96597f9e-02be-4a10-bcc1-6dd08e1de2ee"
+        ],
+        "isRemovable": false,
+        "filePath": "test311induu"
+      },
+      "96597f9e-02be-4a10-bcc1-6dd08e1de2ee": {
+        "id": "96597f9e-02be-4a10-bcc1-6dd08e1de2ee",
+        "parent": "24d224cc-f7e6-4c3c-a3f2-0a45ce1469a9",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "test311induu/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInameget",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "24d224cc-f7e6-4c3c-a3f2-0a45ce1469a9",
+    "openFiles": [
+      "96597f9e-02be-4a10-bcc1-6dd08e1de2ee"
+    ],
+    "currentFileId": "96597f9e-02be-4a10-bcc1-6dd08e1de2ee",
+    "resources": {
+      "apigusEast1sachithraAPInameget": {
+        "name": "apigusEast1sachithraAPInameget",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "zrjp6rdv3b",
+          "restMethod": "GET",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "q4i0nd",
+          "mode": 1
+        }
+      },
+      "s3induniltrigger": {
+        "name": "s3induniltrigger",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "indunil.trigger"
+          }
+        }
+      },
+      "ses-sachithrarajapakse1992@gmail.com": {
+        "name": "ses-sachithrarajapakse1992@gmail.com",
+        "type": "SES",
+        "config": {
+          "selectedIdentity": "sachithrarajapakse1992@gmail.com",
+          "projectRegion": "us-east-1",
+          "params": {
+            "to": "sachithrarajapakse1992@gmail.com",
+            "cc": "",
+            "bcc": "",
+            "subject": "test1.3.11",
+            "body": {
+              "text": "test 1.3.11 cmmit repooo",
+              "html": ""
+            }
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "javascript",
+          "version": "2.176.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "test311induu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576657807615
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "test311induu",
+      "url": "https://github.com/Indunil1992/test311induu"
+    }
+  }
+}
